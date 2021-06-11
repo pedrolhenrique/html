@@ -1,4 +1,4 @@
-/* CSS reset */
+/* reset CSS */
 *, *:before, *:after { 
   margin:0;
   padding:0;
@@ -56,7 +56,7 @@ label{
   position: relative;
 }
 
-/**** advanced input styling ****/
+/**** formatando placeholder ****/
 /* placeholder */
 ::-webkit-input-placeholder  {
   color: #bebcbc; 
@@ -87,7 +87,7 @@ input:not([type="checkbox"]){
   transition: all 0.2s linear;
 }
 
-/*estilo do botão submit */
+/*botão submit */
 input[type="submit"]{
   width: 100%!important;
   cursor: pointer;  
@@ -144,7 +144,7 @@ input[type="submit"]:hover{
   border: 1px solid #4ab3c6;
 }
 
-/* estilos para para ambos os formulários */
+/* cadastro e login */
 #cadastro, 
 #login{
   position: absolute;
